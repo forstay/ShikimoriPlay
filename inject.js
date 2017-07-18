@@ -10,8 +10,6 @@ setInterval(function () {
   pathName = window.location.pathname.substr(1)
   if (pathName.indexOf('/') != -1) {
     field = pathName.substr(0, pathName.indexOf('/'))
-  }
-  if (pathName.indexOf('/') != -1) {
     animeName = pathName.substr(pathName.indexOf('/') + 1)
   }
   if (field == 'animes' && isNormalInteger(animeName.substr(0, 1))) {
