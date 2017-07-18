@@ -4,7 +4,7 @@ var animeName = ''
 var hrf = ''
 var str1 = '<div class="block"><a class="b-link_button dark watch-online" href="'
 var str2 = '">Смотреть онлайн</a></div>'
-var placeholder = undefined
+var placeholder = null
 
 setInterval(function () {
   pathName = window.location.pathname.substr(1)
