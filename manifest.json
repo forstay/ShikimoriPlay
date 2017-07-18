@@ -1,0 +1,22 @@
+{
+  "name": "ShikimoriPlay",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Возвращает кнопку онлайн просмотра",
+  "homepage_url": "https://shikimori.org/",
+  "icons": {
+    "128": "icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "http://shikimori.org/*",
+        "https://shikimori.org/*"
+      ],
+      "js": [
+        "jquery-3.2.1.min.js",
+        "inject.js"
+      ]
+    }
+  ]
+}
